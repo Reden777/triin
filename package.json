@@ -4,6 +4,12 @@
   "description": "True Random Influenced Intention Number generator for browsers and Node.js",
   "type": "module",
   "exports": "./triin.js",
+  "files": [
+    "triin.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
   "bin": {
     "triin": "./cli.js"
   }
