@@ -33,3 +33,5 @@ node cli.js --intention "my intention"
 
 Omit the argument to be prompted for an intention. The command prints the final
 number, matching the Python script's output format.
+
+Intention Repeater Forum: https://intentionrepeater.boards.net

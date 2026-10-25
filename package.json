@@ -1,6 +1,6 @@
 {
   "name": "triin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "True Random Influenced Intention Number generator for browsers and Node.js",
   "type": "module",
   "exports": "./triin.js",
@@ -11,6 +11,6 @@
     "LICENSE"
   ],
   "bin": {
-    "triin": "./cli.js"
+    "triin": "cli.js"
   }
 }
