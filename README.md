@@ -8,13 +8,10 @@ product. Arbitrary-precision `BigInt` is used for the hash, product, and result.
 ## Library
 
 ```js
-import { generateTriin, getSha3_512Hash, calculateNewValue } from 'triin';
+import { generateTriin } from 'triin';
 
 const { hash, hashInteger, randomNumbers, value } = await generateTriin('my intention');
 console.log(hash, hashInteger, randomNumbers, value);
-
-// Deterministic calculation if you already have the eight numbers:
-const result = calculateNewValue(getSha3_512Hash('my intention'), [1, 2, 3, 4, 5, 6, 7, 8]);
 ```
 
 `hash` is the SHA3-512 digest as lowercase hex; `hashInteger` and `value` are

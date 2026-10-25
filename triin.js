@@ -130,8 +130,8 @@ export async function getRandomNumbers({
   return values;
 }
 
-/** Multiply the supplied random values exactly using BigInt. */
-export function calculateNewValue(hashInteger, randomNumbers) {
+/** Multiply the fetched random values exactly using BigInt. */
+function calculateNewValue(hashInteger, randomNumbers) {
   const hash = typeof hashInteger === 'bigint' ? hashInteger : BigInt(hashInteger);
   if (!Array.isArray(randomNumbers) || randomNumbers.length === 0) {
     throw new TypeError('randomNumbers must be a non-empty array');
