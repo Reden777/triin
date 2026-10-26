@@ -20,6 +20,8 @@ browser must permit requests to RANDOM.ORG through CORS for the network helper
 to work; applications can pass a custom `fetchImpl` to `getRandomNumbers` or
 `generateTriin` if they use a suitable proxy or their own source.
 
+Open `index.html` through a local web server to try the browser interface.
+
 ## Command line
 
 With Node.js 18 or newer:
